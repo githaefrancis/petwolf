@@ -1,0 +1,29 @@
+.header{
+  background: url('../wolf.jpg');
+  background-size:cover;
+
+}
+.header p{
+
+  color: black;
+  font-size:2em;
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  text-shadow:2px 2px grey;
+}
+
+.card{
+  overflow: hidden;
+  border-radius:15px;
+}
+
+.blog{
+  margin-bottom:30px;
+}
+
+.footer{
+  height:200px;
+  background-color:rgb(31, 23, 23)
+}
