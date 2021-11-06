@@ -1,6 +1,16 @@
+.nav-link{
+  margin-right: 1em !important;
+}
+.navbar-collapse{
+  justify-content: flex-end;
+}
+nav.navbar ul{
+  display:flex;
+}
 .header{
   background: url('../wolf.jpg');
   background-size:cover;
+  backdrop-filter: blur(12px);
 
 }
 .header p{
@@ -10,7 +20,7 @@
   position:absolute;
   top:50%;
   left:50%;
-  transform: translate(-50%,-50%);
+  transform:translate(-50%,-50%);
   text-shadow:2px 2px grey;
 }
 
@@ -26,4 +36,11 @@
 .footer{
   height:200px;
   background-color:rgb(31, 23, 23)
+}
+nav {
+  background-color:grey;
+  height:200px;
+}
+nav a{
+  color:#ffffff
 }
