@@ -1,12 +1,12 @@
-.nav-link{
+/* .nav-link{
   margin-right: 1em !important;
-}
-.navbar-collapse{
+} */
+/* .navbar-collapse{
   justify-content: flex-end;
-}
-nav.navbar ul{
+} */
+/* nav.navbar ul{
   display:flex;
-}
+} */
 .header{
   background: url('../wolf.jpg');
   background-size:cover;
@@ -39,7 +39,6 @@ nav.navbar ul{
 }
 nav {
   background-color:grey;
-  height:200px;
 }
 nav a{
   color:#ffffff
